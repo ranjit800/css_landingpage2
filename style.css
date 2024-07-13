@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    /* justify-content: ; */
+    /* align-items: center; */
+    align-items: flex-end;
+
+    padding: 0px 90px;
+    padding-top: 120px;
+    gap: 70px;
+
+}
+
+#left{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(255, 89, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 9px;
+}
+
+#left h1{
+    font-size: 8.3vw;
+    font-weight: 500;
+    /* line-height: 140px; */
+    line-height: 8.3vw;
+    font-family: work sans;
+}
+
+#bottom-left{
+    height: 40%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#color{
+    /* background-color: blue; */
+    /* margin-top: 25px; */
+    width: fit-content;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+#color h5{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+#color1{
+height: 20px;
+width: 20px;
+background-color:burlywood;
+border-radius: 50%;
+margin: 3px;
+
+}
+
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color:brown;
+    border-radius: 50%;
+    }
+
+#left h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#left p{
+    /* font-size: 15px; */
+    font-size: 1.1vw;
+    width: 65%;
+    font-weight: 500;
+    color: #444;
+    line-height: 25px;
+}
+
+
+
+
+#right{
+    height: 90%;
+    width: 33%;
+    /* background-color: #13a700dc; */
+    position: relative;
+}
+#right-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    padding-right: 20px;
+}
+
+#right-top h4{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#right-top h5{
+    font-size: 10px;
+}
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width: 100%;
+    height: 43vw;
+    object-fit: cover;
+    object-position: 28% 100%;
+    border-radius: 9px;
+}
+
+#black-gola{
+    position: absolute;
+    right: -15%;
+    top:30% ;
+    height: 150px;
+    width: 150px;
+    background-color:#1c1b1e;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#black-gola h5{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
+#rotated-text{
+    position: absolute;
+    left: -10%;
+    bottom: 5%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 30px;
+    font-weight: 700;
+}
