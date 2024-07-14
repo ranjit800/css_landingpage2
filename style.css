@@ -35,10 +35,10 @@ html,body{
 }
 
 #left h1{
-    font-size: 8.3vw;
+    font-size: 8.6vw;
     font-weight: 500;
     /* line-height: 140px; */
-    line-height: 8.3vw;
+    line-height: 8.8vw;
     font-family: work sans;
 }
 
@@ -57,6 +57,7 @@ html,body{
     justify-content: center;
     border-radius: 50px;
     border: 1px solid black;
+    box-shadow: 10px 10px 5px lightblue;
 }
 #color h5{
     font-size: 20px;
@@ -82,16 +83,15 @@ margin: 3px;
 
 #left h2{
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 1.9vw;
     margin-bottom: 15px;
 }
-#left p{
-    /* font-size: 15px; */
-    font-size: 1.1vw;
-    width: 65%;
+#left p{ 
+    font-size: 1.3vw;
+    width: 66%;
     font-weight: 500;
     color: #444;
-    line-height: 25px;
+    line-height: 1.6vw;
 }
 
 
@@ -137,8 +137,10 @@ margin: 3px;
     position: absolute;
     right: -15%;
     top:30% ;
-    height: 150px;
-    width: 150px;
+    /* height: 150px; */
+    height: 10vw;
+    /* width: 150px; */
+    width: 10vw;
     background-color:#1c1b1e;
     color: white;
     border-radius: 50%;
@@ -148,7 +150,8 @@ margin: 3px;
 }
 
 #black-gola h5{
-    font-size: 26px;
+    
+    font-size: 1.7vw;
     font-weight: 500;
 }
 
@@ -161,4 +164,172 @@ margin: 3px;
     transform-origin: 0 0;
     font-size: 30px;
     font-weight: 700;
+}
+
+@media (max-width:600px) {
+    #main{
+        height: 100%;
+        
+        width: 100%;
+        display: flex;
+        justify-content:flex-start ;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px;
+        padding-top: 40px;
+        gap: 40px;
+    
+    }
+    #left{
+        height: fit-content;
+        width: 100%;
+        /* background-color: rgb(255, 89, 0); */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 9px;
+        gap: 30px;
+    }
+    
+    #left h1{
+        font-size: 18vw;
+        font-weight: 500;
+        /* line-height: 140px; */
+        line-height: 18vw;
+        font-family: work sans;
+    }
+    
+    #bottom-left{
+        height: 40%;
+        width: 100%;
+        /* background-color: yellow; */
+    }
+    #color{
+        /* background-color: blue; */
+        /* margin-top: 25px; */
+        width: fit-content;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        border: 1px solid black;
+        box-shadow: 10px 10px 5px lightblue;
+    }
+    #color h5{
+        font-size: 13px;
+        margin-right: 5px;
+        font-weight: 500;
+    }
+    
+    #color1{
+    height: 11px;
+    width: 11px;
+    background-color:burlywood;
+    border-radius: 50%;
+    margin: 3px;
+    
+    }
+    
+    #color2{
+        height: 11px;
+        width: 11px;
+        background-color:brown;
+        border-radius: 50%;
+        }
+    
+    #left h2{
+        /* background:rebeccapurple; */
+        margin-top: 20px;
+        font-size: 3vw;
+        margin-bottom: 8px;
+    }
+    #left p{ 
+        /* background: green; */
+        font-size: 2.2vw;
+        width: 100%;
+        font-weight: 500;
+        color: #444;
+        line-height: 2.6vw;
+    }
+
+/* ================================== */
+
+    #right{
+        height: 50%;
+        width: 100%;
+        /* background-color: #13a700dc; */
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    #right-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        width: 100%;
+        padding-right: 0px;
+        /* background-color: red; */
+    }
+    
+    #right-top h4{
+        font-size: 26px;
+        font-weight: 500;
+        
+    }
+    
+    #right-top h5{
+        font-size: 12px;
+    }
+    #right-top h5 i{
+        color: gold;
+    }
+    
+    #right img{
+        width: 100%;
+        
+        height: 52vw;
+        object-fit:cover;
+        object-position: 28% 40%;
+        border-radius: 5px;
+        
+    }
+    
+    #black-gola{
+        position: absolute;
+       
+        right: -11%;
+        top:-11% ;
+        height: 98px;
+        width: 98px;
+        background-color:#1c1b1e;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    #black-gola h5{
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    
+    
+    #rotated-text{
+        position: absolute;
+        left: 0%;
+       top: -12%;
+        rotate: 0deg;
+        transform-origin: 0 0;
+        font-size: 28px;
+        font-weight: 600;
+        overflow: visible;
+    }
+    
+
+    
 }
